@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanier Tisley - Professional CV</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: white; 
+            font-family:'Times New Roman', Times, serif;
+            color: #683b04;
+        }
+
+        .cv-header {
+            background: linear-gradient(135deg, #683b04, #683b0498); color: white;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 4px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .section-title {
+            color: #683b0498;
+            border-bottom: 30px solid #683b0498;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+            text-transform: capitalize;
+            font-size: 1.25rem;
+            letter-spacing: 1px;
+        }
+
+        .timeline {
+            border-left: 2px solid #683b04;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            left: -27px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #683b04;
+        }
+
+        .card {
+            border: none;
+            border-radius: 0.5rem;
+        }
+
+        .date-badge {
+            background-color: #683b04 !important;
+            color: white !important;
+        }
+
+        .skill-badge {
+            background-color: #683b0498;
+            color: #683b04;
+            font-weight: 500;
+            padding: 0.5rem 0.75rem;
+            margin: 0.25rem;
+            display: inline-block;
+            border-radius: 0.25rem;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .skill-badge:hover {
+            background-color: slategray;
+            color: white;
+        }
+        @media print {
+            body { background-color: #fff; }
+            .cv-header { background: #683b04 !important; color: white !important; -webkit-print-color-adjust: exact; }
+            .btn, form { display: none !important; }
+            .card { box-shadow: none !important; }
+    </style>
+</head>
+<body>
+
+<div class="container my-5 shadow-lg p-0 bg-white rounded">
+
+    <!-- HEADER SECTION -->
+    <header class="cv-header text-center text-md-start">
+        <div class="row align-items-center g-4">
+            <div class="col-md-3 text-center">
+                <!-- Placeholder Avatar. Replace src with your image path -->
+                <img src="laniertisley.jpeg" alt="Lanier Tisley" class="rounded-circle profile-img shadow">
+            </div>
+            <div class="col-md-9">
+                <h1 class="display-4 fw-bold mb-1">Lanier Tisley</h1>
+                <p class="lead mb-3 fw-medium">Entry Software Engineer</p>
+                <div class="row g-2 text-white-50">
+                    <div class="col-sm-6 col-md-4">
+                        <i class="fas fa-envelope text-white me-2"></i> Ltisley71@gmail.com
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <i class="fas fa-phone text-white me-2"></i> (312) 975-1840
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <i class="fas fa-map-marker-alt text-white me-2"></i> Chicago, IL
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <i class="fab fa-linkedin text-white me-2"></i> www.linkedin.com/in/lanier-tisley
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <i class="fab fa-github text-white me-2"></i> https://github.com/laniert
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT SECTION -->
+    <main class="p-4 p-md-5">
+        <div class="row g-5">
+           
+            <!-- LEFT COLUMN: EXPERIENCE & EDUCATION -->
+            <div class="col-lg-8">
+               
+                <!-- PROFILE SUMMARY -->
+                <section class="mb-5">
+                    <h2 class="section-title"><i class="fas fa-user me-2"></i>Professional Summary</h2>
+                    <p class="text-muted lead-sm">
+                        An entry-level software engineer looking to gain real-world experience. Freshly graduated from UChicago's software engineering bootcamp, 
+                        I've acquired and currently expanding my knowlegde in the skills of Python, Django, HTML/CSS, bootstrap, MySQL/SQLite, 
+                        and Git/Github. Current goals include applying learned skills to enrich the experience of both future teammates and those affected by our work.
+                    </p>
+                </section>
+
+                <!-- WORK EXPERIENCE -->
+                <section class="mb-5">
+                    <h2 class="section-title"><i class="fas fa-briefcase me-2"></i>Work Experience</h2>
+                    <div class="timeline">
+                       
+                        <!-- Job Item 1 -->
+                        <div class="timeline-item">
+                            <div class="d-flex justify-content-between flex-wrap align-items-center mb-1">
+                                <h4 class="h5 mb-0 fw-bold">Logistics Associate II</h4>
+                                <span class="badge date-badge text-wrap">Oct 2023 - Present</span>
+                            </div>
+                            <div class="text-muted mb-2 fw-medium">Lurie Childrens Hospital | Chicago, IL</div>
+                            <ul class="text-muted ps-3">
+                                <li> Customer service; tend to requisitions made by nurses and other staff within the hospital.</li>
+                                <li> Put away incoming deliveries and items into the workday system. </li>
+                                <li> Weekly/Day-to-day count and expiration checks. </li>
+                            </ul>
+                        </div>
+
+                        <!-- Job Item 2 -->
+                        <div class="timeline-item">
+                            <div class="d-flex justify-content-between flex-wrap align-items-center mb-1">
+                                <h4 class="h5 mb-0 fw-bold">Food Runner</h4>
+                                <span class="badge date-badge text-wrap">Nov 2024 - June 2026</span>
+                            </div>
+                            <div class="text-muted mb-2 fw-medium">Bazaar Meat</div>
+                            <ul class="text-muted ps-3">
+                                <li> Memorize various ingredients, allergies, and history of various dishes to spiel to guests. </li>
+                                <li> Coordinate with hosts, servers, bussers, and chefs to uphold the values of Bazaar Meat. </li>
+                                <li> Exposure and constant interaction with patrons of all various backgrounds. </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- EDUCATION -->
+                <section>
+                    <h2 class="section-title"><i class="fas fa-graduation-cap me-2"></i>Education</h2>
+                    <div class="timeline">
+                       
+                        <!-- Education Item 1 -->
+                        <div class="timeline-item mb-3">
+                            <div class="d-flex justify-content-between flex-wrap align-items-center mb-1">
+                                <h4 class="h5 mb-0 fw-bold">High School Diploma</h4>
+                                <span class="badge date-badge">Sep 2018 - Jun 2022</span>
+                            </div>
+                            <div class="text-muted fw-medium">George Westinghouse College Prep</div>
+                        </div>
+                        <!-- Education Item 2 -->
+                        <div class="timeline-item mb-3">
+                            <div class="d-flex justify-content-between flex-wrap align-items-center mb-1">
+                                <h4 class="h5 mb-0 fw-bold">Software Engineer Certification</h4>
+                                <span class="badge date-badge">Mar 2026 - Sept 2026</span>
+                            </div>
+                            <div class="text-muted fw-medium">University of Chicago - Software Engineering Bootcamp</div>
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- RIGHT COLUMN: SKILLS, CERTIFICATIONS & CONTACT -->
+            <div class="col-lg-4">
+
+                <!-- CORE SKILLS -->
+                <section class="mb-5">
+                    <h2 class="section-title"><i class="fas fa-tools me-2"></i>Core Skills</h2>
+                    <div class="d-flex flex-wrap m-n1">
+                        <span class="skill-badge">HTML5 / CSS3</span>
+                        <span class="skill-badge">Bootstrap 5</span>
+                        <span class="skill-badge">Python / Django</span>
+                        <span class="skill-badge">MySQL / SQLite</span>
+                        <span class="skill-badge">Git & GitHub</span>
+    </main>

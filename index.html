@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -90,6 +90,7 @@
             .cv-header { background: #683b04 !important; color: white !important; -webkit-print-color-adjust: exact; }
             .btn, form { display: none !important; }
             .card { box-shadow: none !important; }
+        }
     </style>
 </head>
 <body>
@@ -97,27 +98,25 @@
 <div class="container my-5 shadow-lg p-0 bg-white rounded">
 
     <!-- HEADER SECTION -->
-    <header class="cv-header text-center text-md-start">
+    <header class="cv-header text-left">
         <div class="row align-items-center g-4">
             <div class="col-md-3 text-center">
-                <!-- Placeholder Avatar. Replace src with your image path -->
-                <img src="laniertisley.jpeg" alt="Lanier Tisley" class="rounded-circle profile-img shadow">
             </div>
             <div class="col-md-9">
                 <h1 class="display-4 fw-bold mb-1">Lanier Tisley</h1>
-                <p class="lead mb-3 fw-medium">Entry Software Engineer</p>
+                <p class="lead mb-3 fw-medium">Junior Software Engineer</p>
                 <div class="row g-2 text-white-50">
                     <div class="col-sm-6 col-md-4">
                         <i class="fas fa-envelope text-white me-2"></i> Ltisley71@gmail.com
                     </div>
                     <div class="col-sm-6 col-md-4">
-                        <i class="fas fa-phone text-white me-2"></i> (312) 975-1840
+                        <i class="fas fa-phone text-white me-2"> 312-975-1840 </i>
                     </div>
                     <div class="col-sm-6 col-md-4">
-                        <i class="fas fa-map-marker-alt text-white me-2"></i> Chicago, IL
+                        <i class="fas fa-map-marker-alt text-white me-2"> Chicago, IL </i>
                     </div>
                     <div class="col-sm-6 col-md-4">
-                        <i class="fab fa-linkedin text-white me-2"></i> www.linkedin.com/in/lanier-tisley
+                        <i class="fab fa-linkedin text-white me-2"> https://www.linkedin.com/in/lanier-tisley </i>
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <i class="fab fa-github text-white me-2"></i> https://github.com/laniert
@@ -138,7 +137,7 @@
                 <section class="mb-5">
                     <h2 class="section-title"><i class="fas fa-user me-2"></i>Professional Summary</h2>
                     <p class="text-muted lead-sm">
-                        An entry-level software engineer looking to gain real-world experience. Freshly graduated from UChicago's software engineering bootcamp, 
+                        A junior software engineer looking to gain real-world experience. Freshly graduated from UChicago's software engineering bootcamp, 
                         I've acquired and currently expanding my knowlegde in the skills of Python, Django, HTML/CSS, bootstrap, MySQL/SQLite, 
                         and Git/Github. Current goals include applying learned skills to enrich the experience of both future teammates and those affected by our work.
                     </p>
@@ -167,13 +166,49 @@
                         <div class="timeline-item">
                             <div class="d-flex justify-content-between flex-wrap align-items-center mb-1">
                                 <h4 class="h5 mb-0 fw-bold">Food Runner</h4>
-                                <span class="badge date-badge text-wrap">Nov 2024 - June 2026</span>
+                                <span class="badge date-badge text-wrap">Nov 2024 - Sept 2026</span>
                             </div>
                             <div class="text-muted mb-2 fw-medium">Bazaar Meat</div>
                             <ul class="text-muted ps-3">
                                 <li> Memorize various ingredients, allergies, and history of various dishes to spiel to guests. </li>
                                 <li> Coordinate with hosts, servers, bussers, and chefs to uphold the values of Bazaar Meat. </li>
                                 <li> Exposure and constant interaction with patrons of all various backgrounds. </li>
+                            </ul>
+                        </div>
+                    
+                    </div>
+                </section>
+                
+                <!-- PROJECTS -->
+                <section>
+                    <h2 class="section-title"><i class="fas fa-briefcase me-2"></i>Projects</h2>
+                    <div class="timeline">
+                       
+                        <!-- Project Item 1 -->
+                        <div class="timeline-item">
+                            <div class="d-flex justify-content-between flex-wrap align-items-center mb-1">
+                                <h4 class="h5 mb-0 fw-bold">Caffeine and Crowns</h4>
+                                <span class="badge date-badge text-wrap">2026</span>
+                            </div>
+                            <div class="text-muted mb-2 fw-medium">Django eCommerce Application | Python, Django, HTML/CSS, Bootstrap, SQLite/MySQL</div>
+                            <ul class="text-muted ps-3">
+                                <li>Developed a full-stack eCommerce application supporting buyer and vendor accounts.</li>
+                                <li>Implemented store and product management, shopping cart functionality, checkout, inventory tracking, and product reviews.</li>
+                                <li>Built authentication, role-based permissions, image uploads, email invoices, and a custom password-reset workflow.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Project Item 2 -->
+                        <div class="timeline-item">
+                            <div class="d-flex justify-content-between flex-wrap align-items-center mb-1">
+                                <h4 class="h5 mb-0 fw-bold">Sticky Notes</h4>
+                                <span class="badge date-badge text-wrap">2026</span>
+                            </div>
+                            <div class="text-muted mb-2 fw-medium">Django Web Application | Python, Django, HTML/CSS</div>
+                            <ul class="text-muted ps-3">
+                                <li>Developed a Django web application for creating and managing digital notes.</li>
+                                <li>Implemented CRUD functionality allowing users to create, view, update, and delete notes.</li>
+                                <li>Designed reusable Django templates and documented application behavior with UML use case and sequence diagrams.</li>
                             </ul>
                         </div>
 
@@ -199,7 +234,7 @@
                                 <h4 class="h5 mb-0 fw-bold">Software Engineer Certification</h4>
                                 <span class="badge date-badge">Mar 2026 - Sept 2026</span>
                             </div>
-                            <div class="text-muted fw-medium">University of Chicago - Software Engineering Bootcamp</div>
+                            <div class="text-muted fw-medium">University of Chicago/HyperionDev - Software Engineering Bootcamp</div>
                         </div>
 
                     </div>
@@ -210,13 +245,73 @@
             <!-- RIGHT COLUMN: SKILLS, CERTIFICATIONS & CONTACT -->
             <div class="col-lg-4">
 
-                <!-- CORE SKILLS -->
+                <!-- TECHNICAL SKILLS -->
                 <section class="mb-5">
-                    <h2 class="section-title"><i class="fas fa-tools me-2"></i>Core Skills</h2>
+                    <h2 class="section-title"><i class="fas fa-tools me-2"></i>Technical Skills</h2>
                     <div class="d-flex flex-wrap m-n1">
                         <span class="skill-badge">HTML5 / CSS3</span>
                         <span class="skill-badge">Bootstrap 5</span>
                         <span class="skill-badge">Python / Django</span>
                         <span class="skill-badge">MySQL / SQLite</span>
                         <span class="skill-badge">Git & GitHub</span>
+
+                    </div>
+                </section>
+                
+                <!-- SOFT SKILLS -->
+                <section class="mb-5">
+                    <h2 class="section-title"><i class="fas fa-tools me-2"></i>Soft Skills</h2>
+                    <div class="d-flex flex-wrap m-n1">
+                        <span class="skill-badge">Collaboration</span>
+                        <span class="skill-badge">Communication</span>
+                        <span class="skill-badge">Problem Solving</span>
+                        <span class="skill-badge">Time Management</span>
+                        <span class="skill-badge">Adaptability</span>
+                        <span class="skill-badge">Accountability</span>
+                        <span class="skill-badge">Creativity</span>
+                        <span class="skill-badge">Leadership</span>
+                        <span class="skill-badge">Critical Thinking</span>
+                    </div>
+                </section>
+
+                <!-- ACCOMPLISHMENTS -->
+                <section class="mb-5">
+                    <h2 class="section-title">
+                        <i class="fas fa-award me-2"></i>Accomplishments
+                    </h2>
+
+                    <ul class="text-muted ps-3">
+                        <li>Completed University of Chicago / HyperionDev Software Engineering Bootcamp.</li>
+                        <li>Developed multiple full-stack Django web applications.</li>
+                        <li>Built projects using Python, Django, HTML/CSS, Bootstrap, MySQL/SQLite, and Git/GitHub.</li>
+                    </ul>
+                </section>
+
+                <!-- REFERENCES -->
+                <section class="mb-5">
+                    <h2 class="section-title">
+                        <i class="fas fa-address-book me-2"></i>References
+                    </h2>
+
+                    <div class="mb-4">
+                        <h4 class="h6 mb-1 fw-bold">Derrick Halpin</h4>
+                        <div class="text-muted">
+                            Supervisor<br>
+                            Lurie Children's Hospital<br>
+                            Email: dhalpin@luriechildrens.org<br>
+                            Phone: (217) 971-0548
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h4 class="h6 mb-1 fw-bold">Marcus Christiaan Naidoo</h4>
+                        <div class="text-muted">
+                            Mentor<br>
+                            Hyperion Dev<br>
+                            Email: mcnaidoo7@gmail.com<br>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
     </main>
